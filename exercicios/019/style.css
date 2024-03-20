@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/*
+em html é id = em css é # (em um unico elemento)
+em html é class = em css é .(em varios elementos)
+*/
+body {
+    background-color: rgba(171, 82, 212, 0.644);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: rgba(64, 32, 78, 0.644);
+    text-align: right;
+}
+h1#principal {
+    color:yellow ;
+    text-align: center;
+}
+h2 {
+    color: rgb(118, 69, 139);
+    text-indent: 30px;
+}
+p {
+    text-align: justify;
+}
+.basico {
+    color: rgb(118, 69, 139);
+}
+.intermediario {
+    color: rgb(69, 139, 127);
+}
+.avancado {
+    color: rgb(139, 69, 69);
+}
+.destaque {
+    background-color: rgba(153, 205, 50, 0.89);
+}

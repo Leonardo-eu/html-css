@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos em HTML5</title>
+</head>
+<body>
+    <h1>Incerindo vídeos hospedados localmente.</h1>
+    <p>Este vídeo está hopedado no meu próprio servidor.</p>
+    <!--<video src="midias/meu-video.webm" width="400" controls></video>
+        forma que o vscode sugere.-->
+    <video width="400" loop controls poster="poster-img/poster-quiui.jpg">
+        <source src="midias/meu-video.mp4" type="video/mp4">
+        <source src="midias/meu-video.webm" type="video/webm">
+        <p>Seu navegador não tem compatibilidade com reprodução de védeos. <a href="midias/meu-video.mp4">Clique aqui para fazer download</a>.</p>
+    </video>
+    <h1>Colocando vídeo do YouTube.</h1>
+    <iframe width="400" height="315" src="https://www.youtube.com/embed/i7L19SOqbNM?si=xjpURn1FZnr9mcNa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="400" height="315" src="https://www.youtube.com/embed/iBY-sz6Q6LA?si=wn27u--Lv0Gt4go0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>

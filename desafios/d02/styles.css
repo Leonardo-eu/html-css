@@ -1,0 +1,17 @@
+/* Defina a animação com @keyframes */
+@keyframes moveRightLeft {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(200px);
+    }
+}
+
+/* Aplique a animação a um elemento */
+.animated-element {
+    animation: moveRightLeft 2s infinite alternate;
+}
+body {
+    background-color: black;
+}

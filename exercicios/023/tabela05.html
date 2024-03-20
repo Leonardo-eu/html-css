@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            width: 400px;
+        }
+        caption {
+            border: 1px solid lightgray;
+            padding: 10px;
+            font-weight: bolder;
+            background-color: rgb(100, 100, 221);
+        }
+        th, td {
+            border: 1px solid lightgray;
+            padding: 10px;
+        }
+        .cnome {
+            background-color: rgb(170, 121, 216);
+        }
+        .cgrup {
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de tabela</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cgrup" span="3">
+        </colgroup>
+        <caption>
+            Cadastro
+        </caption>
+        <thead>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </thead>
+        <tr>
+            <td>Heloisa</td>
+            <td>F</td>
+            <td>18</td>
+            <td>Design</td>
+        </tr>
+        <tr>
+            <td>Pedro</td>
+            <td>M</td>
+            <td>18</td>
+            <td>Desenvolvedor</td>
+        </tr>
+        <tr>
+            <td>Joaquim</td>
+            <td>M</td>
+            <td>38</td>
+            <td>Pedreiro</td>
+        </tr>
+        <tr>
+            <td>Joelsom</td>
+            <td>M</td>
+            <td>16</td>
+            <td>Médico</td>
+        </tr>
+        <tr>
+            <td>Lorena</td>
+            <td>F</td>
+            <td>24</td>
+            <td>Vendedora</td>
+        </tr>
+    </table>
+</body>
+</html>

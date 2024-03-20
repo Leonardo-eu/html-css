@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Classe</title>
+    <style>
+        div {
+            display: inline-block;
+            background-color: blueviolet;
+            text-align: center;
+            border: 1px solid rgb(60, 20, 97);
+            height: 200px;
+            width: 200px;
+
+        }
+        div > .menu {
+            display: none;
+        }
+        div:hover > .menu {
+            display: block;
+            background-color: blue;
+            height: 400px;
+            width: 400px;
+        }
+        div:hover {
+            background-color: rgb(43, 43, 160);
+        }
+        p:hover {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        01
+        <div class="menu">
+            <p>Compras</p>
+            <p>loja</p>
+            <p>home</p>
+            <p>Computadores</p>
+        </div>
+    </div>
+ 
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos deferentes ou diminua 
+        o tamanho do navedador.
+    </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Foto flexível">
+    </picture>
+    <h1>Reproduzindo Mídias</h1>
+    <p>Reproduzindo áudios em HTML5.</p>
+    <!-- <audio src="midia/Música-fundo.mp3" controls aut></audio>></audio> -->
+    <!--Compatibilidade MP3, WAV, OGG-->
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/Música-fundo.mp3" type="audio/mpeg">
+        <source src="midia/Música-fundo.ogg" type="audio/ogg">
+        <source src="midia/Música-fundo.wav" type="audio/wav">
+        <p>Infelismente seu navegador não consegue reproduzir áudio. <a href="midia/Música-fundo.mp3">Clique aqui para fazer download</a>.</p>
+    </audio>
+</body>
+</html>
