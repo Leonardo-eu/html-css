@@ -5,37 +5,13 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body {
-    animation: grandint 10s ease infinite;
     background-image: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-repeat: no-repeat;
-    background-size: 300% 300%;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
-@keyframes grandint {
-    0% {
-        background-position: 0 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0 50%;
-    }
-}
-html, body {
-    width: 100vw;
-    height: 100vh;
-    background-color: black;
 }
 main {
     position: relative;
     height: 100vh;
 }
-#telefone {
+section#telefone {
     /*///////////////////////////////////////////////////////////////
                      como deixar um container centralizado
     ////////////////////////////////////////////////////////////////*/
@@ -54,4 +30,19 @@ iframe#tela {
     left:25px;
     height: 467px;
     width: 262px;
+}
+section#redes-sociais {
+    text-align: right;
+}
+section#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 6px #0000004f;
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover {
+    border: 1px solid rgba(255, 255, 255, 0.541);
+    transform: translate(-3px, -5px);
 }
